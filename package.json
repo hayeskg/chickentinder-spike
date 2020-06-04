@@ -1,0 +1,35 @@
+{
+  "name": "chickentinder-spike",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hayeskg/chickentinder-spike.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hayeskg/chickentinder-spike/issues"
+  },
+  "homepage": "https://github.com/hayeskg/chickentinder-spike#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "apollo-server": "^2.14.1",
+    "apollo-server-express": "^2.14.1",
+    "express": "^4.17.1",
+    "graphql": "^15.0.0",
+    "mongoose": "^5.9.17"
+  }
+}
