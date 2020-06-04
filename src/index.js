@@ -5,16 +5,6 @@ import { typeDefs } from './typeDefs';
 import { resolvers } from './resolvers';
 
 
-const books = [
-  {
-    title: 'Harry Potter and the Chamber of Secrets',
-    author: 'J.K. Rowling',
-  },
-  {
-    title: 'Jurassic Park',
-    author: 'Michael Crichton',
-  },
-];
 
 const startServer = async () => {
   const app = express();
